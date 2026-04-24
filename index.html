@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Aman Puskar – Full Stack Developer & GenAI Engineer</title>
+<meta name="description" content="Portfolio of Aman Puskar – Full Stack Developer specializing in GenAI, RAG, NLP, and real-time systems." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Animated Background -->
+<canvas id="bg-canvas"></canvas>
+
+<div class="content">
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">Aman Puskar</div>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#experience" class="nav-link">Experience</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-badge">
+    <span class="badge-dot"></span>
+    Available for opportunities
+  </div>
+  <h1 class="hero-name">
+    <span class="line1">Aman Puskar</span>
+    <span class="line2">Full Stack · GenAI</span>
+  </h1>
+  <p class="hero-title">Building intelligent systems &amp; real-time applications</p>
+  <div class="hero-typed-wrap">
+    <span id="typed"></span><span class="cursor">|</span>
+  </div>
+  <div class="hero-cta">
+    <a href="#projects" class="btn-primary">View Projects</a>
+    <a href="mailto:amanpuskaremg25@gmail.com" class="btn-outline">Get In Touch</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><span class="stat-num" data-target="750" data-suffix="+">0</span><span class="stat-label">DSA Problems</span></div>
+    <div class="stat"><span class="stat-num" data-target="4" data-suffix="">0</span><span class="stat-label">Projects Built</span></div>
+    <div class="stat"><span class="stat-num" data-target="100" data-suffix="+">0</span><span class="stat-label">Day Streak</span></div>
+    <div class="stat"><span class="stat-num" data-target="7" data-suffix="">0</span><span class="stat-label">Core Skills</span></div>
+  </div>
+</section>
+
+<hr class="section-divider"/>
+
+<!-- ABOUT + SKILLS -->
+<section id="about" class="container">
+  <div class="reveal">
+    <p class="section-label">About</p>
+    <h2 class="section-title">Who I Am</h2>
+  </div>
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>I'm a <strong>Full Stack Developer</strong> and final-year B.Tech student at NIET, Greater Noida, with a strong foundation in data structures, algorithms, and AI-enabled systems.</p>
+      <p>I've worked on <strong>Retrieval-Augmented Generation (RAG)</strong>, NLP pipelines, and OCR-based document understanding during my internship at R Systems Int. Ltd — integrating these into scalable, production-ready applications.</p>
+      <p>I enjoy designing <strong>end-to-end systems</strong> — from real-time WebSocket chats to semantic search engines — with a sharp focus on correctness and performance.</p>
+      <div class="tech-tags">
+        <span>Java</span><span>Python</span><span>React</span><span>Spring Boot</span>
+        <span>RAG</span><span>Pinecone</span><span>WebSockets</span><span>NLP</span>
+      </div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-row">
+        <label><span>Java / Spring Boot</span><span>90%</span></label>
+        <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+      </div>
+      <div class="skill-row">
+        <label><span>React.js</span><span>85%</span></label>
+        <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+      </div>
+      <div class="skill-row">
+        <label><span>Python / NLP</span><span>82%</span></label>
+        <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+      </div>
+      <div class="skill-row">
+        <label><span>RAG / Vector Search</span><span>78%</span></label>
+        <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+      </div>
+      <div class="skill-row">
+        <label><span>WebSockets / Real-Time</span><span>80%</span></label>
+        <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+      </div>
+      <div class="skill-row">
+        <label><span>SQL / Databases</span><span>75%</span></label>
+        <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+      </div>
+      <div class="skill-row">
+        <label><span>DSA / Algorithms</span><span>88%</span></label>
+        <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider"/>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="container">
+  <div class="reveal">
+    <p class="section-label">Experience</p>
+    <h2 class="section-title">Where I've Worked</h2>
+  </div>
+  <div class="exp-card reveal">
+    <div class="exp-header">
+      <div>
+        <div class="exp-company">R SYSTEMS INT. LTD</div>
+        <div class="exp-role">Generative AI / NLP Intern</div>
+        <div class="exp-meta">Internship &nbsp;·&nbsp; Greater Noida, India</div>
+      </div>
+      <div class="exp-badge">GenAI</div>
+    </div>
+    <ul class="exp-bullets">
+      <li>Built Retrieval-Augmented Generation (RAG) systems for document-based Q&amp;A at production scale.</li>
+      <li>Implemented OCR pipelines to extract text from scanned PDFs and unstructured documents.</li>
+      <li>Applied NLP techniques for text preprocessing, semantic embeddings, and efficient retrieval.</li>
+      <li>Built and optimized vector search pipelines using FAISS-based indexing with embedding models.</li>
+      <li>Improved answer accuracy through prompt engineering and systematic retrieval tuning.</li>
+    </ul>
+  </div>
+
+  <div class="edu-section reveal">
+    <h3 class="edu-heading">Education</h3>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="edu-degree">B.Tech — Computer Science</div>
+        <div class="edu-school">Noida Institute of Engineering & Technology</div>
+        <div class="edu-meta">2022 – 2026 &nbsp;·&nbsp; CGPA: 7.25</div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-degree">Senior Secondary (XII) — CBSE</div>
+        <div class="edu-school">Aster Public School, Greater Noida</div>
+        <div class="edu-meta">2022 &nbsp;·&nbsp; 84%</div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-degree">Secondary (X) — CBSE</div>
+        <div class="edu-school">Aster Public School, Greater Noida</div>
+        <div class="edu-meta">2020 &nbsp;·&nbsp; 93.8%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider"/>
+
+<!-- PROJECTS -->
+<section id="projects" class="container">
+  <div class="reveal">
+    <p class="section-label">Projects</p>
+    <h2 class="section-title">Things I've Built</h2>
+  </div>
+  <div class="projects-grid">
+
+    <div class="project-card reveal">
+      <div class="project-tag">⚡ Real-Time</div>
+      <div class="project-name">Talk Circuit</div>
+      <div class="project-desc">Full-stack real-time chat application with end-to-end encryption, file sharing, typing indicators, and online/offline presence tracking. Secure room-based communication with planned WebRTC voice/video support.</div>
+      <div class="project-tech">
+        <span class="tech-pill">React</span>
+        <span class="tech-pill">Spring Boot</span>
+        <span class="tech-pill">WebSockets</span>
+        <span class="tech-pill">STOMP</span>
+        <span class="tech-pill">WebRTC</span>
+      </div>
+      <div class="project-footer">
+        <a href="https://talk-circuit.vercel.app/" target="_blank" rel="noopener" class="project-link">Live Demo →</a>
+        <a href="https://github.com/Aman-Puskar" target="_blank" rel="noopener" class="project-link-gh">GitHub ↗</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-tag">🤖 GenAI</div>
+      <div class="project-name">RAG Gov Policies Advisor</div>
+      <div class="project-desc">RAG system delivering accurate, document-grounded answers on government policies and schemes using OCR over official PDFs. Semantic embedding and vector search significantly reduce hallucinations.</div>
+      <div class="project-tech">
+        <span class="tech-pill">Python</span>
+        <span class="tech-pill">FAISS</span>
+        <span class="tech-pill">OCR</span>
+        <span class="tech-pill">NLP</span>
+        <span class="tech-pill">LLM</span>
+      </div>
+      <div class="project-footer">
+        <a href="https://github.com/Aman-Puskar" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-tag">📧 Backend</div>
+      <div class="project-name">Email Sender</div>
+      <div class="project-desc">Spring Boot application to send HTML emails with attachments and dynamic recipients via JavaMailSender API. Features secure SMTP, error handling, custom subjects, and template-based emails.</div>
+      <div class="project-tech">
+        <span class="tech-pill">Java</span>
+        <span class="tech-pill">Spring Boot</span>
+        <span class="tech-pill">JavaMail</span>
+        <span class="tech-pill">SMTP</span>
+      </div>
+      <div class="project-footer">
+        <a href="https://email-sender-fullstack.vercel.app/" target="_blank" rel="noopener" class="project-link">Live Demo →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-tag">🗺️ Maps</div>
+      <div class="project-name">Vehicle Tracker</div>
+      <div class="project-desc">Real-time vehicle tracking system with dynamic map markers and location updates using Leaflet.js. Features live position updates, zoom controls, and interactive popups for intuitive visualization.</div>
+      <div class="project-tech">
+        <span class="tech-pill">React</span>
+        <span class="tech-pill">Leaflet.js</span>
+        <span class="tech-pill">WebSocket</span>
+      </div>
+      <div class="project-footer">
+        <a href="https://vehical-tracker.vercel.app/" target="_blank" rel="noopener" class="project-link">Live Demo →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="section-divider"/>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="container">
+  <div class="reveal">
+    <p class="section-label">Achievements</p>
+    <h2 class="section-title">Milestones</h2>
+  </div>
+  <div class="ach-grid reveal">
+    <div class="ach-card">
+      <div class="ach-icon">🏆</div>
+      <div class="ach-text"><strong>700+ DSA Problems</strong>Solved across LeetCode &amp; CodeChef platforms</div>
+    </div>
+    <div class="ach-card">
+      <div class="ach-icon">💎</div>
+      <div class="ach-text"><strong>Diamond Badge</strong>Maintained a 100-day streak on CodeChef</div>
+    </div>
+    <div class="ach-card">
+      <div class="ach-icon">🔥</div>
+      <div class="ach-text"><strong>100 Active Days</strong>Badge for 100 active days on LeetCode</div>
+    </div>
+    <div class="ach-card">
+      <div class="ach-icon">🥇</div>
+      <div class="ach-text"><strong>12+ Sports Medals</strong>Athletic excellence during school years</div>
+    </div>
+  </div>
+
+  <div class="certs-section reveal">
+    <p class="certs-heading">Certifications</p>
+    <div class="certs-row">
+      <a href="https://github.com/Aman-Puskar/Certificates/blob/main/reactjs.pdf" target="_blank" rel="noopener" class="cert-chip">✦ ReactJS</a>
+      <a href="https://github.com/Aman-Puskar/Certificates/blob/main/dbms.pdf" target="_blank" rel="noopener" class="cert-chip">✦ Database Management System</a>
+      <a href="https://github.com/Aman-Puskar/Certificates/blob/main/oops%20in%20java.jpg" target="_blank" rel="noopener" class="cert-chip">✦ OOP in Java</a>
+      <a href="https://github.com/Aman-Puskar/Certificates/blob/main/core%20java.png" target="_blank" rel="noopener" class="cert-chip">✦ Core Java</a>
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider"/>
+
+<!-- CONTACT -->
+<section id="contact" class="container">
+  <div class="contact-wrapper reveal">
+    <p class="section-label" style="justify-content:center;">Contact</p>
+    <h2 class="section-title" style="margin-bottom:1rem;">Let's Connect</h2>
+    <p class="contact-desc">I'm actively looking for opportunities in Full Stack Development and Generative AI. Whether it's a project, a role, or just a conversation — feel free to reach out.</p>
+    <div class="contact-links">
+      <a href="mailto:amanpuskaremg25@gmail.com" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+        amanpuskaremg25@gmail.com
+      </a>
+      <a href="tel:+919811559451" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 10.7 19.79 19.79 0 0 1 1 2.18 2 2 0 0 1 2.98 0h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.09 7.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 14.92z"/></svg>
+        +91 98115 59451
+      </a>
+      <a href="https://github.com/Aman-Puskar" target="_blank" rel="noopener" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.54 2.87 8.39 6.84 9.75.5.09.68-.22.68-.49v-1.71c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.1-1.49-1.1-1.49-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.33 1.11 2.9.85.09-.66.35-1.11.63-1.37-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85 0 1.7.12 2.5.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.49A10.27 10.27 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+        GitHub
+      </a>
+      <a href="https://leetcode.com/u/aman_puskar12/" target="_blank" rel="noopener" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>
+        LeetCode
+      </a>
+      <a href="https://codolio.com/profile/9M8KPW68" target="_blank" rel="noopener" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        Codolio Profile
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="footer-name">Aman Puskar</span> &nbsp;·&nbsp; Designed &amp; built from scratch &nbsp;·&nbsp; 2024
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

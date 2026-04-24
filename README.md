@@ -30,17 +30,6 @@ npx serve .
 python -m http.server 8080
 ```
 
-## Deploy to GitHub Pages
-
-1. Push the files to a GitHub repo
-2. Go to **Settings → Pages**
-3. Set source to **main branch / root**
-4. Your site will be live at `https://username.github.io/repo-name`
-
-## Deploy to Vercel / Netlify
-
-Drag and drop the folder into [vercel.com](https://vercel.com) or [netlify.com](https://netlify.com) — no config needed.
-
 ## File Structure
 
 ```

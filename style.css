@@ -30,7 +30,7 @@ body {
   background: var(--bg);
   color: var(--text);
   overflow-x: hidden;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 /* ── Canvas Background ── */
@@ -218,7 +218,6 @@ nav.scrolled { padding: 0.7rem 2.5rem; }
   letter-spacing: 0.15em; margin-bottom: 0.5rem;
   display: flex; align-items: center; gap: 8px;
 }
-.section-label::before { content: '//'; opacity: 0.45; }
 .section-title {
   font-size: clamp(1.6rem, 3.5vw, 2.4rem);
   font-weight: 700; letter-spacing: -0.02em;
@@ -230,7 +229,7 @@ nav.scrolled { padding: 0.7rem 2.5rem; }
   display: grid; grid-template-columns: 1fr 1fr;
   gap: 4rem; align-items: start;
 }
-.about-text { font-size: 0.97rem; color: var(--muted); line-height: 1.85; }
+.about-text { font-size: 0.97rem; color: var(--muted); line-height: 2.0; }
 .about-text p { margin-bottom: 1rem; }
 .about-text strong { color: var(--text); }
 
@@ -297,7 +296,7 @@ nav.scrolled { padding: 0.7rem 2.5rem; }
 .exp-bullets { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
 .exp-bullets li {
   font-size: 0.9rem; color: var(--muted);
-  padding-left: 1.25rem; position: relative; line-height: 1.65;
+  padding-left: 1.25rem; position: relative; line-height: 1.8;
 }
 .exp-bullets li::before {
   content: '▹'; color: var(--accent);
